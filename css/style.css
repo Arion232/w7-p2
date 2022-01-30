@@ -1,0 +1,712 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+          /* Global css */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+
+width: 90%;
+
+float: left;
+}
+section{
+    padding: 75px 0px;
+}
+.global-h-l{
+
+    font-size: 50px;
+}
+.global-h-m{
+
+font-size: 35px;
+}
+.global-h-s{
+
+font-size: 20px;
+
+font-weight: 600;
+}
+.golbal-p{
+
+}
+.btn{
+
+    width: 205px;
+
+    padding: 12px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    border-radius: 8px;
+
+    border: none;
+}
+           /* header */
+header{
+
+width: 100%;
+
+float: left;
+
+background-image: url(../img/background.png);
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+text-align: center;
+
+padding-top: 35px;
+
+margin-bottom: -240px;
+}
+.header-part{
+
+    width: 100%;
+
+    float: left;
+}
+.log{
+
+    width: 50%;
+
+    float: left;
+
+    position: relative;
+
+    left: -55px;
+}
+.menu-part{
+
+    width: 50%;
+
+    float: left;
+}
+.menu-part ul{
+
+    float: right;
+}
+.menu-part ul li{
+
+    list-style: none;
+
+    display: inline-block;
+
+    padding: 7px 15px;
+
+    margin: 0px 3px 10px 0px;
+}
+.menu-part ul li:hover{
+    box-shadow: 0px 0px 4px #03343f;
+
+}
+.menu-part ul li a{
+
+color: white;
+
+text-decoration: none;
+
+padding: 10px;
+}
+                /* header content */
+.hero-part{
+
+width: 100%;
+
+float: left;
+}
+.hero-part h1{
+
+line-height: 3.5rem;
+
+padding-top: 40px;
+
+color: white;
+}
+.hero-part p{
+
+padding: 15px;
+
+margin: 5px 0px 9px 2px;
+
+color: #e9dede;
+}
+.header-btn{
+
+width: 100%;
+
+float: left;
+}
+.header-btn button{
+
+margin: 4px 4px 20px 18px;
+}
+.header-btn button:hover{
+    box-shadow: 2px 4px 4px #f0dfdffa;
+}
+.btn-one{
+
+margin-left: 18px;
+}
+.btn-two{
+
+background: transparent;
+
+border: 1px solid white;
+
+margin-left: 18px;
+}
+.hero-part img{
+
+}
+/* about */
+#about{
+    width: 100%;
+    float: left;
+    background: url(../img/Vibo---PSD-App-Template-Recovered.png) no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    z-index: 1;
+    padding-top: 240px;
+    padding-bottom: 250px;
+}
+
+.content-part{
+
+width: 100%;
+
+float: left;
+/* background-image: url(../img/Vibo---PSD-App-Template-Recovered.png) no-repeat ; */
+}
+.img-part{
+
+width: 50%;
+
+float: left;
+
+text-align: right;
+
+top: 115px;
+
+position: relative;
+
+left: -56px;
+}
+   /* box */
+.details{
+    
+width: 50%;
+    
+float: left;
+}   
+.details-box{
+
+width: 35%;
+
+float: left;
+
+padding: 51px 63px;
+
+text-align: center;
+
+box-shadow: 0px 4px 4px #979797;
+
+margin: 20px 20px 30px 50px;
+
+border: none;
+
+border-radius: 8px;
+} 
+
+.details-box:hover{
+    background-color: turquoise;
+}
+.details-box img{
+
+}
+.details-box h2{
+
+}
+.details-box p{
+
+color: #645d5d;
+
+margin-top: 7px;
+}
+.one{
+
+position: relative;
+
+float: left;
+
+left: 47px;
+
+top: 50px;
+}
+.two{
+
+position: relative;
+
+right: -65px;
+
+bottom: -141px;
+}
+.three{
+
+position: relative;
+
+top: 260px;
+
+left: 33px;
+}
+.four{
+
+position: relative;
+
+bottom: -201px;
+
+left: 14px;
+}
+   /* part 2 */
+
+#part2{
+
+width: 100%;
+
+float: left;
+
+padding: 75px 0px;
+}
+.main-part{
+
+width: 50%;
+
+float: left;
+
+text-align: right;
+
+padding-right: 30px;
+
+margin-top: 45px;
+}
+.main-part h3{
+
+padding: 5px 0px;
+
+margin-bottom: 11px;
+}
+.main-part p{
+
+line-height: 1.4rem;
+
+color: #7a7676;
+}
+.main-part button{
+
+margin: 18px 8px 8px 0px;
+
+padding: 15px;
+
+background-color: #33D2FD;
+
+color: black;
+}
+.main-part button:hover{
+       box-shadow: 0px 2px 3px #979797;
+}
+
+
+.sub-part{
+
+width: 50%;
+
+float: left;
+
+padding-left: 90px;
+}
+.subpart{
+
+width: 80%;
+
+float: left;
+
+padding: 19px 38px;
+
+text-align: center;
+
+box-shadow: 0px 4px 4px #979797;
+
+margin: 11px 7px 14px 17px;
+
+border: none;
+
+border-radius: 2px;
+}
+.subpart h2{float: left;padding-left: 11px;}
+.subpart p{
+    
+float: left;
+    
+margin: 10px 4px 3px 0px;
+    
+padding-left: 0px;
+}
+.subpart img{
+    
+float: left;
+}
+.subpart:hover{
+    background-color: aqua;
+} 
+.oone{
+}
+.ttwo{
+
+}
+.tthree{
+
+}
+.ffour{
+
+}
+
+/* part3 */
+#part3{
+
+width: 100%;
+
+float: left;
+
+background-color: #f9f9ff;
+}
+.code-img{
+
+padding-right: 4%;
+
+width: 50%;
+
+float: left;
+
+text-align: right;
+
+margin: 0px 0px 0px 0px;
+}
+.code-img img{
+
+}
+.code-cantain{
+
+width: 50%;
+
+float: left;
+
+padding-left: 4%;
+}
+.code-cantain h3{
+
+font-weight: 600;
+
+margin: 25px 0px 15px 0px;
+}
+.code-cantain ul{
+
+}
+.code-cantain ul li{
+
+list-style: none;
+}
+.code-cantain ul li i{
+    
+background-color: #23c5eb;
+    
+width: 20px;
+    
+height: 20px;
+    
+border-radius: 50%;
+    
+text-align: center;
+    
+margin: 1px 6px 6px 2px;
+}
+.code-cantain p{
+    
+padding: 5px;
+    
+line-height: 1.7rem;
+    
+color: #4c4b4b;
+}
+
+/* part4 */
+
+#part4{
+
+width: 100%;
+
+float: left;
+
+background-image: url(../img/background.png);
+
+/* background-position: cover; */
+
+background-origin: border-box;
+
+background-size: cover;
+}
+.img-part-two{
+
+width: 50%;
+
+float: left;
+
+text-align: right;
+
+padding-right: 5%;
+}
+.app-part{
+
+width: 50%;
+
+float: left;
+
+padding-left: 6%;
+
+margin-top: 10%;
+}
+.app-part h3{
+
+font-weight: 600;
+
+margin: 10px 0px;
+}
+.app-part p{
+
+margin: 18px 0px 11px 0px;
+
+padding: 5px;
+
+line-height: 1.7rem;
+
+color: white;
+}
+.app-part img{
+    
+padding: 5px;
+    
+margin: 0px 2px 0px 16px;
+}
+.app-part button{
+
+}
+
+/* button */
+
+.bttn{
+
+}
+.bttn button{
+    
+width: 14%;
+    
+padding: 18px;
+    
+margin: -1% 0px 0px  45%;
+    
+background-color: #F8467A;
+    
+border: none;
+}
+.bttn button:hover{
+    box-shadow: 0px 4px 2px #9c4b64e3;
+}
+
+ /* INFo */
+
+#info{
+
+width: 100%;
+
+float: left;
+
+text-align: center;
+}
+.part1{
+
+}
+.part1 ul{
+
+}
+.part1 ul h2{
+
+}
+.part1 ul  li{
+
+}
+.part2{
+
+}
+.part2 ul{
+
+}
+.part2 ul h2{
+
+}
+.part2 ul  li{
+    
+}
+.part3{
+
+}
+.part3 ul{
+
+}
+.part3 ul h2{
+
+}
+.part3 ul li{
+    list-style: none;
+
+/* text-align: center;
+
+margin: 0px 35px 0px 0px; */
+}
+.part3 ul li i{
+
+}
+
+
+/* part4 */
+.part4{
+
+}
+.part4 ul{
+
+}
+.part4 ul h2{
+
+}
+.part4 ul  li{
+    /* list-style: none;
+
+text-align: center;
+
+margin: 0px 35px 0px 0px; */
+}
+.ok{
+    
+width: 25%;
+    
+float: left;
+}
+.ok ul{
+
+}
+.ok ul h2{
+
+padding: 5px;
+
+margin: 0px 0px 11px 0px;
+}
+.ok ul  li{
+
+list-style: none;
+
+text-align: center;
+
+padding: 5px;
+
+color: #565353;
+}
+/* TOUCH */
+#touch-part{
+
+width: 100%;
+
+float: left;
+}
+.touch-part{
+    
+width: 100%;
+    
+float: left;
+    
+text-align: center;
+}
+.touch-part h3{
+
+line-height: 1.5rem;
+
+padding: 5px;
+
+margin: 0px 0px 12px 0px;
+}
+.touch-part p{
+
+padding: 10px;
+
+margin: 0px 0px 28px 0px;
+
+color: #585555;
+}
+.touch-part input{
+
+width: 20%;
+
+padding: 12px;
+
+border: none;
+
+background: #f1f1f1;
+
+margin-right: 20px;
+}
+.touch-part button{
+
+background: #33D2FD;
+}
+
+/*  */
+
+#ft{
+
+width: 100%;
+
+padding: 40px;
+
+float: left;
+
+background-color: #233148;
+}
+.text-part{width: 50%;text-align: center;float: left;}
+.text-part p{
+
+color: white;
+
+margin: 30px 0px 0px 0px;
+}
+.link{
+
+width: 50%;
+
+float: left;
+}
+.link i{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    /* width: 50px;
+
+height: 50px; */
+    text-align: center;
+    border-radius: 50%;
+    margin: 17px 10px 0px 9px;
+    padding: 0px 22px;
+}
