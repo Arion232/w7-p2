@@ -106,6 +106,9 @@ margin-bottom: -240px;
 }
 .menu-part ul li:hover{
     box-shadow: 0px 0px 4px #03343f;
+    cursor: pointer;
+
+
 
 }
 .menu-part ul li a{
@@ -672,6 +675,10 @@ margin-right: 20px;
 .touch-part button{
 
 background: #33D2FD;
+}
+.touch-part button{
+cursor: pointer;
+    box-shadow: 0px 2px 3px #979797
 }
 
 /*  */
